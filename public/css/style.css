@@ -4,3 +4,6 @@
 a img {
     width: 2rem;
 }
+li a:hover {
+    text-decoration: underline;
+}
