@@ -7,3 +7,6 @@ a img {
 li a:hover {
     text-decoration: underline;
 }
+.container {
+    margin-top: 6rem;
+}
