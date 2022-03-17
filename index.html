@@ -12,7 +12,7 @@
   <link rel="stylesheet" href="public/css/style.css">
 
   <!-- CSS DEBUG LIRI -->
-  <link rel="stylesheet" href="/public/css/liri.css">
+  <!-- <link rel="stylesheet" href="/public/css/liri.css"> -->
   <!-- CSS DEBUG LIRI -->
 
   <link rel="icon" href="public/images/favicon.ico">
@@ -21,9 +21,9 @@
 <body>
   <!-- NAVBAR -->
   <header>
-    <nav class="navbar navbar-expand-lg navbar-light bg-success mb-5">
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top bg-success mb-5">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">Navbar</a>
+        <a class="navbar-brand" href="#"><img src="/public/images/paresseux-icon.png" alt=""></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
           aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -51,17 +51,17 @@
 
   <!-- MAIN -->
   <main>
-    <div class="container">
+    <div class="container mt-5 pt-5">
       <div class="row">
+        <!-- CAROUSEL -->
         <section>
 
           <div class="col-6">
-            <h1>Site web sur les paresseux</h1>
+            <h1 class="fs-1 text-capitalize">les paresseux</h1>
           </div>
 
-          <!-- CAROUSEL -->
           <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-indicators bg-dark bg-opacity-25">
+            <div class="carousel-indicators">
               <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
                 aria-current="true" aria-label="Slide 1"></button>
               <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
@@ -90,12 +90,12 @@
                 <img src="public/images/paresseux5.jpg" class="d-block w-100" alt="...">
               </div>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+            <button class="carousel-control-prev bg-dark bg-opacity-25" type="button" data-bs-target="#carouselExampleIndicators"
               data-bs-slide="prev">
               <span class="carousel-control-prev-icon" aria-hidden="true"></span>
               <span class="visually-hidden">Previous</span>
             </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+            <button class="carousel-control-next bg-dark bg-opacity-25" type="button" data-bs-target="#carouselExampleIndicators"
               data-bs-slide="next">
               <span class="carousel-control-next-icon" aria-hidden="true"></span>
               <span class="visually-hidden">Next</span>
@@ -105,6 +105,9 @@
 
         <!-- DEFINITION -->
         <section>
+          <div class="col-6">
+            <h2 class="fs-2">Qui sont-ils?</h2>
+          </div>
           <div>
             <p>
               Les paresseux sont des mammifères arboricoles d'Amérique du Sud et d'Amérique centrale qui constituent le
@@ -119,6 +122,87 @@
               ans).
               Il ne faut pas les confondre avec le « paresseux australien », un autre nom donné au koala, mammifère
               marsupial.
+            </p>
+          </div>
+        </section>
+
+        <!-- Biologie -->
+        <section>
+          <div class="col-6">
+            <h2 class="fs-2">Biologie</h2>
+          </div>
+          <div>
+            <p>
+              Ils possèdent 18 dents à croissance continue (en général 10 en haut et 8 en bas6) au total (canines et
+              prémolaires6) qui leur servent à mâcher des feuilles.
+
+              Leur métabolisme, deux fois inférieur à celui des autres mammifères, leur procure une température qui
+              varie de 23 à 32 °C au cours de la journée, impliquant une poïkilothermie au moins partielle7. La couleur
+              du pelage, verdâtre, est due à la présence de symbiotes chlorophylliens8, des cyanobactéries (Cyanoderma
+              bradypii9 ou Cyanoderma choloepi) et des algues vertes (Trichophilus welckeri10). Le paresseux possède
+              quelques prédateurs, principalement le jaguar, l'ocelot et l'aigle harpie (Harpia harpyja). Ainsi, chez le
+              Bradypus variegatus, le sol est, et de loin, le lieu de sa plus grande vulnérabilité, cette espèce ne
+              descend pour faire ses besoins qu'une fois par semaine, et se libère alors de plus d'un tiers de son
+              poids. Ce mode de vie assez remarquable est dû aux feuilles coriaces que le Bradypus variegatus mange, qui
+              entraînent une digestion particulièrement lente11.
+
+              Il se déplace très lentement : moins de 10 m à la minute dans les arbres (soit 0,6 km/h)12. En fait, cette
+              lenteur est son meilleur camouflage ; il échappe ainsi à la vue perçante de ses prédateurs. Certaines
+              études ont montré qu'il dort environ 12 heures par jour13. Le paresseux est incapable de sauter et ne voit
+              pas très loin14.
+
+              Autre caractéristique intéressante, le cou du paresseux comporte huit à neuf vertèbres cervicales ce qui
+              lui permet d'effectuer des rotations de la tête sur près de 270 degrés. Le paresseux a une espérance de
+              vie d'environ 30 à 50 ans15. Le paresseux (Bradypus, aï en français) est solitaire, il ne s'accouple que
+              tous les deux ans environ. La femelle donne naissance à un seul petit au bout d'une gestation d'environ 6
+              mois ; le petit pèse alors 200-250 g. Au bout de 6 mois, la mère le délaisse, mais le petit la suit encore
+              jusqu'à l'âge d'un an pour s'en séparer définitivement ensuite16.
+
+              On les rencontre très fréquemment dans tout le Costa Rica, jusqu'à une altitude de 2 400 m16.
+
+              En Guyane, l'aï est le réservoir principal du protozoaire Leishmania braziliensis guyanensis, responsable
+              de leishmanioses cutanées du type espundia (la transmission s'effectue par un phlébotome (Lutzomyia
+              umbratilis)17.
+            </p>
+          </div>
+        </section>
+
+        <!-- MYTHE -->
+        <section>
+          <div class="col-6">
+            <h2 class="fs-2">Mythe</h2>
+          </div>
+          <div>
+            <p>
+              Le paresseux fait partie des mythes fondateurs dans certaines populations d'Amérique du Sud, soit ancêtre
+              de l'espèce humaine, soit transformation de l'homme en ces animaux des suites d'une mauvaise action. Ce
+              mythe a été étudié par l'anthropologue français Claude Lévi-Strauss dans son ouvrage La Potière jalouse en
+              1985. Dans la littérature, il est évoqué par l'écrivain chilien Luis Sepúlveda dans son roman Le Vieux qui
+              lisait des romans d'amour en 1992.
+            </p>
+          </div>
+        </section>
+
+        <!-- ESPECE -->
+        <section>
+          <div class="col-6">
+            <h2 class="fs-2">Conservation de l'espèce</h2>
+          </div>
+          <div>
+            <p>
+              Actuellement, la principale menace pour le paresseux est l'activité humaine, car celui-ci en fait
+              commerce18.
+
+              L'impact néfaste de l'être humain sur l'espèce est d'autant plus important avec l'accélération de la
+              déforestation, qui oblige le paresseux à se déplacer au sol vers d'autres zones habitables et l'expose aux
+              prédateurs18.
+
+              Le paresseux de la famille des Bradypodidae est très recherché comme animal de compagnie. Cependant son
+              métabolisme lent adapté au mode de vie dans la forêt se montre très vulnérable à certaines maladies qui
+              provoquent une surmortalité des paresseux en captivité18.
+
+              Le paresseux de la famille des Megalonychidae n'est, quant à lui, pas valorisé en tant qu'animal de
+              compagnie en raison de son tempérament agressif et de ses dents pointues18.
             </p>
           </div>
         </section>
