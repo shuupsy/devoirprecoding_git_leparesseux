@@ -1,5 +1,4 @@
-<<<<<<< HEAD
-.sloth{
+.sloth {
     margin-top: 0px;
     background-image: url(../images/sloth7.jpg);
     background-attachment: fixed;
@@ -9,7 +8,7 @@
 
 .fond {
     background-image: url(../images/fondclair.jpg);
-    background-size:cover;
+    background-size: cover;
     width: 100%;
     height: 300px;
 }
@@ -18,60 +17,68 @@
     width: 75%;
 }
 
-.forest{
+.forest {
     background-image: url(../images/forest.jpg);
     background-attachment: fixed;
     background-size: cover;
     height: 400px;
-=======
+}
+
 .carousel-inner {
     max-height: 680px;
 }
+
 a img {
     width: 2rem;
 }
+
 li a:hover {
     text-decoration: underline;
 }
+
 .container {
     margin-top: 6rem;
 }
+
 .navbar-brand:hover img {
     animation: rotation 1s linear infinite;
 }
 
-a.nav-link:hover{
+a.nav-link:hover {
     animation: name duration timing-function delay iteration-count direction fill-mode;
     animation-name: colorize;
-    animation-duration:1s;
-    animation-timing-function:ease-out;
+    animation-duration: 1s;
+    animation-timing-function: ease-out;
     /* animation-iteration-count: infinite; */
     /* animation-direction: normal; */
     animation-fill-mode: both;
 
 }
 
-section:nth-child(2){
+section:nth-child(2) {
     animation: breath 6s linear 6s infinite;
     -o-animation: breath 6s linear 6s infinite;
     -moz-animation: breath 6s linear 6s infinite;
     -webkit-animation: breath 6s linear 6s infinite;
 
 }
-section:nth-child(3){
+
+section:nth-child(3) {
     animation: breath 6s linear 4s infinite;
     -o-animation: breath 6s linear 4s infinite;
     -moz-animation: breath 6s linear 4s infinite;
     -webkit-animation: breath 6s linear 4s infinite;
-    
+
 }
-section:nth-child(4){
+
+section:nth-child(4) {
     animation: breath 6s linear 2s infinite;
     -o-animation: breath 6s linear 2s infinite;
     -moz-animation: breath 6s linear 2s infinite;
     -webkit-animation: breath 6s linear 2s infinite;
 }
-section:nth-child(5){
+
+section:nth-child(5) {
     animation: breath 6s linear 1s infinite;
     -o-animation: breath 6s linear 1s infinite;
     -moz-animation: breath 6s linear 1s infinite;
@@ -79,34 +86,39 @@ section:nth-child(5){
 }
 
 @keyframes breath {
-    0%{
-        transform: scale(1) ;
-        
-    }
-    50%{
-        transform: scale(1.01) ;
+    0% {
+        transform: scale(1);
 
     }
+
+    50% {
+        transform: scale(1.01);
+
+    }
+
     100% {
-        transform: scale(1) ;
+        transform: scale(1);
 
     }
-    
+
 }
+
 @keyframes rotation {
-    from{
+    from {
         transform: rotate(0turn);
     }
-    to{
+
+    to {
         transform: rotate(360turn);
     }
 }
+
 @keyframes colorize {
     from {
         color: inherit;
     }
+
     to {
         color: aliceblue;
     }
->>>>>>> e3c3d6b6bd36b2abe8f268c182ecf06d3cf968e6
 }
