@@ -10,24 +10,21 @@ li a:hover {
 .container {
     margin-top: 6rem;
 }
+.navbar-brand:hover img {
+    animation: rotation 1s linear infinite;
+}
+
 a.nav-link:hover{
     animation: name duration timing-function delay iteration-count direction fill-mode;
     animation-name: colorize;
-    animation-duration: 1s;
-    animation-timing-function: linear;
+    animation-duration:1s;
+    animation-timing-function:ease-out;
     /* animation-iteration-count: infinite; */
     /* animation-direction: normal; */
     animation-fill-mode: both;
 
 }
-@keyframes colorize {
-    from {
-        color: inherit;
-    }
-    to {
-        color: aliceblue;
-    }
-}
+
 section:nth-child(2){
     animation: breath 6s linear 6s infinite;
     -o-animation: breath 6s linear 6s infinite;
@@ -69,4 +66,20 @@ section:nth-child(5){
 
     }
     
+}
+@keyframes rotation {
+    from{
+        transform: rotate(0turn);
+    }
+    to{
+        transform: rotate(360turn);
+    }
+}
+@keyframes colorize {
+    from {
+        color: inherit;
+    }
+    to {
+        color: aliceblue;
+    }
 }
