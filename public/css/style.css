@@ -1,0 +1,25 @@
+.sloth{
+    margin-top: 0px;
+    background-image: url(../images/sloth7.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    min-height: 450px;
+}
+
+.fond {
+    background-image: url(../images/fondclair.jpg);
+    background-size:cover;
+    width: 100%;
+    height: 300px;
+}
+
+.sloth2 {
+    width: 75%;
+}
+
+.forest{
+    background-image: url(../images/forest.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    height: 400px;
+}
